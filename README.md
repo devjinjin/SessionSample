@@ -1,1 +1,17 @@
-SessionSample
+# .net core SessionSample
+
+설정값 10초 Swagger로 테스트
+
+  Program.cs 내
+
+```
+...
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options => { 
+    options.IdleTimeout = TimeSpan.FromSeconds(10);
+});
+...
+app.UseSession();
+...
+
+```
