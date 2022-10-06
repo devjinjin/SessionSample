@@ -1,4 +1,4 @@
-# .net core 세션 샘플
+# .net core session 샘플
 
 설정값 10초 Swagger로 테스트
 
