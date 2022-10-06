@@ -15,3 +15,4 @@ app.UseSession();
 ...
 
 ```
+  테스트 SessionController 사용
